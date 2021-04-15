@@ -1,0 +1,130 @@
+.box {
+    display: flex;
+    position: relative;
+    background: transparent;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .one{
+      height: 400px;
+      width: 1000px;
+      padding-bottom: 5px;
+      border-style: dotted;
+      padding: 1px;
+      margin-bottom: 7px
+  }
+  
+  #first1 {
+    top: 20px;
+    left: 20px;
+    border: 2px solid red
+  }
+  
+  #second1 {
+    top: 50px;
+    left: 150px;
+    border: 2px solid blue
+  }
+  
+  #third1 {
+    top: 80px;
+    left: 280px;
+    border: 2px solid green
+  }
+  
+  .two{
+    height: 250px;
+    width: 1000px;
+    border-style: dotted;
+    padding: 1px;
+    margin-bottom: 7px;
+  }
+  
+  #first2 {
+    top: 20px;
+    left: 0px;
+    background-color: red;
+  }
+  
+  #second2 {
+    top: -25px;
+    left: 50px;
+    background-color: blue
+  }
+  
+  #third2 {
+    top: -70px;
+    left: 100px;
+    background-color: green
+  }
+  
+  .three{
+    height: 300px;
+    width: 1000px;
+    border-style: dotted;
+    padding: 1px;
+    margin-bottom: 7px
+  }
+  
+  #first3 {
+    top: 20px;
+    left: 0px;
+    z-index: 0;
+    background-color: red;
+  }
+  
+  #second3 {
+    top: -10px;
+    left: 50px;
+    z-index: 1;
+    background-color: blue
+  }
+  
+  #third3 {
+    top: -40px;
+    left: 100px;
+    z-index: 0;
+    background-color: green
+  }
+  
+  .div_border{
+    height: 500px;
+    width: 25%;
+    padding-bottom: 5px;
+    border-style: dotted;
+    margin-bottom: 2px;
+  }
+
+  .general{
+    left: 70%;
+    height: 550px;
+    top: 90px;
+    position: fixed;
+    padding-bottom: 30px;
+    border-style: dotted;
+    margin-left: 3px;
+  
+}
+
+.news_name{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:white;
+}
+
+p{
+    padding-left:25px;
+    font-size: 20px;
+}
+.text{
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border: 1px solid rgb(113, 175, 19);
+    position: sticky;
+    height: 355px;
+    overflow: auto;
+  
+}
+  
