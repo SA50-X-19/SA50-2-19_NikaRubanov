@@ -5,20 +5,13 @@
   box-sizing: border-box;
 }
 
-.wrapper {
-  z-index: -1;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  padding-top: 79px;
-  background-color: #02160b;
-}
 
 .background {
-  background-image: url(Rectangle.jpg);
+  background-image: url(fox.jpg);
   width: 100%;
-  max-width: 1440px;
-  height: 780px;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
@@ -53,23 +46,22 @@
 button {
   text-decoration: none;
 }
-
-.Button1 {
-  height: 50px;
-  width: 120px;
-  font-family: Roboto;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
-  border: 2px solid #CD6326;
-  box-sizing: border-box;
-  border-radius: 5px;
-  background-color: Transparent;
-  color: white;      
-}
+button {
+      height: 50px;
+      width: 120px;
+      font-family: Roboto;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: center;
+      border: 2px solid #8b00ff;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background-color: Transparent;
+      color: white;      
+    }
 
 a {
   color: rgba(247, 247, 247, 1);
@@ -104,12 +96,12 @@ a {
 }
 
 .title {
-  text-align: left;
-  width: 199px;
-  height: 72px;
-  color: rgba(205, 99, 38, 1);
-  display: flex;
-}
+      text-align: left;
+      width: 199px;
+      height: 72px;
+      color: rgba(139, 0, 255, 1);
+      display: flex;
+    }
 
 .h1 {
   font-family: Open Sans;
@@ -151,14 +143,13 @@ a {
 }
 
 .Donate1 {
-  background: rgba(205, 99, 38, 1);
-  width: 160px;
-  height: 60px;
-  border-radius: 5px;
-  color:white;
-  -webkit-transition: 500ms ease;
-  text-decoration: none;
-}
+      background: rgb(0, 174, 255);
+      border-radius: 5%;
+      color: black;
+      width: 160px;
+      height: 60px;
+      -webkit-transition: 500ms ease;
+    }
 
 .Donate1:hover {
   transition: 500ms;
